@@ -1,0 +1,50 @@
+/* 
+Course Outline :
+> Flexbox
+    > display
+    > flex-direction
+    > flex-wrap
+    > flex-flow
+    > justify-content
+    > align-items
+    > order
+    > flex-grow
+    > flex-shrink
+    > flex-basis
+    > flex
+    > 
+> Grid
+> Media Query
+*/
+
+.container{
+    height: 400px;
+    width: 800px;
+    border: solid 2px black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid{
+    display: grid;
+}
+
+.square{
+    display: flex;
+    border: solid 2px;
+    width: 40px;
+    height: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 
+Notes :
+> Geser horizontal : justify-content
+> Geser vertikal : align-items / align-content
+*/
